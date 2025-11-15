@@ -1,6 +1,6 @@
 # Atividade-Caixa-Branca-1
 ## 1. Código analisado
-Neste projeto, analisei um sistema simples de autenticação de usuários desenvolvido em Java. O código realiza a conexão com um banco de dados MySQL e verifica se as credenciais fornecidas existem na base de dados.
+Neste projeto, eu analisei um sistema simples de autenticação de usuários desenvolvido em Java. O código realiza a conexão com um banco de dados MySQL e verifica se as credenciais estão na base de dados.
 ```java
 package login;
 import java.sql.Connection;
