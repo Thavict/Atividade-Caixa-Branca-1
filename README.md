@@ -79,29 +79,30 @@ A complexidade ciclomática é **2**.
 
 ---
 
-## 🧠 4. Caminhos Básicos
+## 4. Os Dois Caminhos Possíveis
+Durante a análise, identifiquei que o código pode seguir apenas dois caminhos diferentes:
 
-### ✔ Caminho 1 — Usuário encontrado
-1. Início
-2. conectarBD()
-3. Montar SQL
-4. Executar query
-5. rs.next() = true
-6. result = true; nome preenchido
-7. return true
+### Cenário 1: Login Bem-Sucedido
+1. O método inicia
+2. Conecta ao banco de dados
+3. Monta a query SQL
+4. Executa a consulta
+5. Encontra o usuário (rs.next() retorna true)
+6. Define result = true e armazena o nome
+7. Retorna true
 
-### ✔ Caminho 2 — Usuário não encontrado
-1. Início
-2. conectarBD()
-3. Montar SQL
-4. Executar query
-5. rs.next() = false
-6. result permanece false
-7. return false
+### Cenário 2: Login Falho
+1. O método inicia
+2. Conecta ao banco de dados
+3. Monta a query SQL
+4. Executa a consulta
+5. Não encontra o usuário (rs.next() retorna false)
+6. Mantém result = false
+7. Retorna false
 
 ---
 
-## 📝 5. Resumo do Cálculo da Complexidade
+## 5. Resumo do Cálculo da Complexidade
 
 ```
 Para chegar ao resultado final, segui estes passos:
