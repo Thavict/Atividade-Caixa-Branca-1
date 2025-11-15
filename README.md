@@ -1,6 +1,6 @@
 # Atividade-Caixa-Branca-1
-## 📌 1. Código analisado
-
+## 1. Código analisado
+Neste projeto, analisei um sistema simples de autenticação de usuários desenvolvido em Java. O código realiza a conexão com um banco de dados MySQL e verifica se as credenciais fornecidas existem na base de dados.
 ```java
 package login;
 import java.sql.Connection;
@@ -38,8 +38,8 @@ public class User {
 
 ---
 
-## 🔷 2. Notação de Grafo de Fluxo
-
+## 2. Grafo de Fluxo
+Para entender melhor como o código funciona, criei este diagrama de fluxo:
 ```
 (1) Início (método verifyLatGuardio)
      ↓
