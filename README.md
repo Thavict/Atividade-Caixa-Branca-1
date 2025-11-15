@@ -104,9 +104,8 @@ Durante a análise, identifiquei que o código pode seguir apenas dois caminhos 
 ---
 
 ## 5. Resumo do Cálculo da Complexidade
-
-```
 Para chegar ao resultado final, segui estes passos:
+```
 
 Contei quantas decisões o código tinha → encontrei 1
 
@@ -114,7 +113,6 @@ Apliquei a fórmula V(G) = P + 1 → 1 + 1 = 2
 
 Confirmei que realmente existem 2 caminhos independentes
 
-Esta análise me mostrou que, embora o código cumpra sua função básica, existem oportunidades de melhoria em termos de segurança e tratamento de erros.
 ```
-
+Esta análise me mostrou que embora o código cumpra sua função básica, tem muita coisa para melhorar e arrumar.
 ---
