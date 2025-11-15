@@ -110,25 +110,3 @@ A complexidade ciclomática é **2**.
 ```
 
 ---
-
-## 📂 6. Estrutura do Repositório
-
-```
-/src
-    User.java
-/docs
-    flow_graph.png
-planilha-de-teste.xlsx
-README.md
-```
-
----
-
-## ✔ 7. Observações Sobre Melhorias no Código
-
-- Adicionar comentários e Javadoc.
-- Tratar exceções corretamente.
-- Fechar recursos (Connection, Statement, ResultSet).
-- Usar PreparedStatement para evitar SQL Injection.
-- Evitar deixar variáveis públicas.
-- Validar se `conn != null` antes de criar Statement.
