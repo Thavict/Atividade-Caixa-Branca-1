@@ -56,14 +56,6 @@ public class User {
 (8) Retorno
 ```
 
-A imagem do grafo deve ser adicionada na pasta `/docs` com o nome **flow_graph.png**.
-
-Use no README:
-
-```
-![Grafo de Fluxo](docs/flow_graph.png)
-```
-
 ---
 
 ## 🧮 3. Complexidade Ciclomática
