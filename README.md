@@ -58,23 +58,24 @@ Para entender melhor como o código funciona, criei este diagrama de fluxo:
 
 ---
 
-## 🧮 3. Complexidade Ciclomática
+## 3. Complexidade Ciclomática
 
-### 🔹 Fórmula utilizada:
+### Como foi calculado:
+Usei a fórmula padrão para complexidade ciclomática:
 ```
 V(G) = P + 1
 ```
 Onde **P = número de decisões**.
 
-### 🔹 Identificação:
+### O que foi encontrado:
 - `if(rs.next())` → **1 ponto de decisão**
 
-### 🔹 Cálculo:
+### Cálculo final:
 ```
 V(G) = 1 + 1 = 2
 ```
 
-### ✔ Resultado:
+### Resultado:
 A complexidade ciclomática é **2**.
 
 ---
